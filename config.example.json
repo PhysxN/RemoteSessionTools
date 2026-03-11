@@ -1,0 +1,33 @@
+{
+  "CheckIntervalMs": 1500,
+  "RequiredHitsToActivate": 2,
+  "RequiredHitsToDeactivate": 2,
+  "MarkerExePath": "service\\RemoteSessionMarker.exe",
+  "Rules": [
+    {
+      "Name": "AnyDesk remote session",
+      "Enabled": true,
+      "ProcessName": "AnyDesk.exe",
+      "CommandLineContains": [
+        "--backend"
+      ],
+      "CommandLineNotContains": []
+    },
+    {
+      "Name": "RuDesktop remote session",
+      "Enabled": true,
+      "ProcessName": "rudesktop.exe",
+      "CommandLineContains": [
+        "--cm"
+      ],
+      "CommandLineNotContains": []
+    },
+    {
+      "Name": "Пример только по имени процесса",
+      "Enabled": false,
+      "ProcessName": "someapp.exe",
+      "CommandLineContains": [],
+      "CommandLineNotContains": []
+    }
+  ]
+}

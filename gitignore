@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Debug/
+Release/
+
+# NuGet
+packages/
+*.nupkg
+
+# Rider / ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Logs and temp
+*.log
+*.tmp
+*.cache
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local app files
+AppData/
