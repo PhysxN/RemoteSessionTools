@@ -10,6 +10,12 @@
 *.userosscache
 *.sln.docstates
 
+# PNG-файлы для подготовки инструкции
+1.png
+2.png
+3.png
+4.png
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
