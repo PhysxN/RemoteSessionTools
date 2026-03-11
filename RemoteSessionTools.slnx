@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RemoteSessionMarker/RemoteSessionMarker.csproj" Id="8045eafa-5912-4d4a-bcfc-6efee56afcb2" />
+  <Project Path="RemoteSessionWatcher/RemoteSessionWatcher.csproj" Id="41564bf1-4600-4d31-814b-c2ab37a67817" />
+</Solution>
